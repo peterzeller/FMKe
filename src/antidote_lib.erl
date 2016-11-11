@@ -100,7 +100,7 @@ txn_commit(TxnDetails) ->
   ok.
 
 %% ------------------------------------------------------------------------------------------------
-%% Helper functions to assist in map updates
+%% Helper functions to assist in map updates (adapted for op-based GMap [antidote_crdt_gmap])
 %% ------------------------------------------------------------------------------------------------
 -spec build_map_update([term()]) -> map_op().
 build_map_update(OpList) ->
